@@ -87,5 +87,13 @@ button:hover{
 
     .c-card{
         background-color: #1AA6B7;
+        button{
+            background-color: ##002D40;
+            color: #faf4ff;
+        }
+        button:hover{
+            background-color: #10375c;
+            color: #f3c623;
+        }
     }
 }

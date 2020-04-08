@@ -106,4 +106,14 @@ button:hover {
 .c-body .c-card {
   background-color: #1AA6B7;
 }
+
+.c-body .c-card button {
+  background-color: #844685;
+  color: #faf4ff;
+}
+
+.c-body .c-card button:hover {
+  background-color: #10375c;
+  color: #f3c623;
+}
 /*# sourceMappingURL=style.css.map */
