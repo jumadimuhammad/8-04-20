@@ -33,7 +33,7 @@ let quote = [
 ];
 
 let random = () => {
-    let numRandom = Math.floor(Math.random() * 4);
+    let numRandom = Math.floor(Math.random() * quote.length);
 
     quote.forEach((item, i) => {
         if (i == numRandom) {

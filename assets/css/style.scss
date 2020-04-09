@@ -1,97 +1,91 @@
+/** @format */
+
 // quote
 
-body{
+body {
     background-color: #10375c;
-    
-    span{
+
+    span {
         margin-top: 70px;
-        color: #D9ECF2;
+        color: #d9ecf2;
     }
-    .q-row{
+    .q-row {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-}
-
-.head{
-    background-color: #f3c623;
-    color: #10375c;
-    h3{
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-    }
-    
-}
-
-.body-1{
-    background-color: #faf4ff;
-    .body-2{
-        background-color: #844685;
-        color: #faf4ff;
-        font-size: 20px;
-        padding: 5px;
-        span{
-            margin-top: 4px;
-            color: #f3c623;
-            font-size: 14px;
+    .head {
+        background-color: #f3c623;
+        color: #10375c;
+        h3 {
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+        .body-1 {
+            background-color: #faf4ff;
+            .body-2 {
+                background-color: #844685;
+                color: #faf4ff;
+                font-size: 20px;
+                padding: 5px;
+                span {
+                    margin-top: 4px;
+                    color: #f3c623;
+                    font-size: 14px;
+                }
+            }
         }
 
+        .foot {
+            background-color: #f3c623;
+            color: #d7fffd;
+        }
+
+        button {
+            background-color: #10375c;
+            color: #f3c623;
+        }
+
+        button:hover {
+            background-color: #844685;
+            color: #faf4ff;
+        }
     }
 }
-
-.foot{
-    background-color: #f3c623;
-    color: #d7fffd;
-}
-
-button{
-    background-color: #10375c;
-    color: #f3c623;
-}
-
-button:hover{
-    background-color: #844685;
-    color: #faf4ff;
-}
-
-
-
 
 // Calkulator
 
-.c-body{
+.c-body {
     background-color: rgb(153, 8, 20);
-    .c-row{
+    .c-row {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
-    span{
+    span {
         margin-top: 100px;
-        color: #D9ECF2;
-    }    
-    .c-con{
+        color: #d9ecf2;
+    }
+    .c-con {
         box-shadow: 0 1px 1px rgb(132, 168, 179);
     }
-    .c-head{
-        background-color: #002D40;
-        color: #D9ECF2;
+    .c-head {
+        background-color: #002d40;
+        color: #d9ecf2;
         font-weight: bold;
         font-size: 40px;
     }
 
-    .c-card{
-        background-color: #1AA6B7;
-        button{
-            background-color: #002D40;
+    .c-card {
+        background-color: #1aa6b7;
+        button {
+            background-color: #002d40;
             color: #faf4ff;
         }
-        button:hover{
+        button:hover {
             background-color: #10375c;
             color: #f3c623;
         }
