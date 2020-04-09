@@ -1,14 +1,16 @@
 /** @format */
-body {
+.q-body {
   background-color: #10375c;
 }
 
-body span {
+.q-body span {
   margin-top: 70px;
   color: #d9ecf2;
+  text-align: center;
+  padding: 0 5px;
 }
 
-body .q-row {
+.q-body .q-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,47 +26,45 @@ body .q-row {
           flex-direction: column;
 }
 
-body .head {
+.q-body .head {
   background-color: #f3c623;
   color: #10375c;
 }
 
-body .head h3 {
+.q-body .head h3 {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
 }
 
-body .body-1 {
+.q-body .body-1 {
   background-color: #faf4ff;
 }
 
-body .body-1 .body-2 {
+.q-body .body-1 .body-2 {
   background-color: #10375c;
   color: #faf4ff;
   font-size: 20px;
   padding: 5px;
 }
 
-body .body-1 .body-2 span {
-  text-align: center;
-  padding: 0 5px;
+.q-body .body-1 .body-2 span {
   margin-top: 4px;
   color: #f3c623;
   font-size: 14px;
 }
 
-body .foot {
+.q-body .foot {
   background-color: #f3c623;
   color: #d7fffd;
 }
 
-body button {
+.q-body button {
   background-color: #10375c;
   color: #f3c623;
 }
 
-body button:hover {
+.q-body button:hover {
   background-color: #844685;
   color: #faf4ff;
 }

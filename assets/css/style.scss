@@ -2,12 +2,14 @@
 
 // quote
 
-body {
+.q-body {
     background-color: #10375c;
 
     span {
         margin-top: 70px;
         color: #d9ecf2;
+        text-align: center;
+        padding: 0 5px;
     }
 
     .q-row {
@@ -38,8 +40,6 @@ body {
             padding: 5px;
 
             span {
-                text-align: center;
-                padding: 0 5px;
                 margin-top: 4px;
                 color: #f3c623;
                 font-size: 14px;
