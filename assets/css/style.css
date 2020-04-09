@@ -1,10 +1,11 @@
+/** @format */
 body {
   background-color: #10375c;
 }
 
 body span {
   margin-top: 70px;
-  color: #D9ECF2;
+  color: #d9ecf2;
 }
 
 body .q-row {
@@ -23,51 +24,51 @@ body .q-row {
           flex-direction: column;
 }
 
-.head {
+body .head {
   background-color: #f3c623;
   color: #10375c;
 }
 
-.head h3 {
+body .head h3 {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
 }
 
-.body-1 {
+body .body-1 {
   background-color: #faf4ff;
 }
 
-.body-1 .body-2 {
-  background-color: #844685;
+body .body-1 .body-2 {
+  background-color: #10375c;
   color: #faf4ff;
   font-size: 20px;
   padding: 5px;
 }
 
-.body-1 .body-2 span {
+body .body-1 .body-2 span {
   margin-top: 4px;
   color: #f3c623;
   font-size: 14px;
 }
 
-.foot {
+body .foot {
   background-color: #f3c623;
   color: #d7fffd;
 }
 
-button {
+body button {
   background-color: #10375c;
   color: #f3c623;
 }
 
-button:hover {
+body button:hover {
   background-color: #844685;
   color: #faf4ff;
 }
 
 .c-body {
-  background-color: #990814;
+  background-color: #ccc5c6;
 }
 
 .c-body .c-row {
@@ -88,7 +89,7 @@ button:hover {
 
 .c-body span {
   margin-top: 100px;
-  color: #D9ECF2;
+  color: #002d40;
 }
 
 .c-body .c-con {
@@ -97,18 +98,18 @@ button:hover {
 }
 
 .c-body .c-head {
-  background-color: #002D40;
-  color: #D9ECF2;
+  background-color: #002d40;
+  color: #d9ecf2;
   font-weight: bold;
   font-size: 40px;
 }
 
 .c-body .c-card {
-  background-color: #1AA6B7;
+  background-color: #1aa6b7;
 }
 
 .c-body .c-card button {
-  background-color: #002D40;
+  background-color: #002d40;
   color: #faf4ff;
 }
 

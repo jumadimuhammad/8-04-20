@@ -9,69 +9,79 @@ body {
         margin-top: 70px;
         color: #d9ecf2;
     }
+
     .q-row {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .head {
         background-color: #f3c623;
         color: #10375c;
+
         h3 {
             font-weight: bold;
             font-size: 30px;
             text-align: center;
         }
-        .body-1 {
-            background-color: #faf4ff;
-            .body-2 {
-                background-color: #844685;
-                color: #faf4ff;
-                font-size: 20px;
-                padding: 5px;
-                span {
-                    margin-top: 4px;
-                    color: #f3c623;
-                    font-size: 14px;
-                }
+    }
+
+    .body-1 {
+        background-color: #faf4ff;
+
+        .body-2 {
+            background-color: #10375c;
+            color: #faf4ff;
+            font-size: 20px;
+            padding: 5px;
+
+            span {
+                margin-top: 4px;
+                color: #f3c623;
+                font-size: 14px;
             }
         }
+    }
 
-        .foot {
-            background-color: #f3c623;
-            color: #d7fffd;
-        }
+    .foot {
+        background-color: #f3c623;
+        color: #d7fffd;
+    }
 
-        button {
-            background-color: #10375c;
-            color: #f3c623;
-        }
+    button {
+        background-color: #10375c;
+        color: #f3c623;
+    }
 
-        button:hover {
-            background-color: #844685;
-            color: #faf4ff;
-        }
+    button:hover {
+        background-color: #844685;
+        color: #faf4ff;
     }
 }
 
 // Calkulator
 
 .c-body {
-    background-color: rgb(153, 8, 20);
+    background-color: rgb(204, 197, 198);
+
     .c-row {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     span {
         margin-top: 100px;
-        color: #d9ecf2;
+        color: #002d40;
     }
+
     .c-con {
         box-shadow: 0 1px 1px rgb(132, 168, 179);
     }
+
     .c-head {
         background-color: #002d40;
         color: #d9ecf2;
@@ -81,10 +91,12 @@ body {
 
     .c-card {
         background-color: #1aa6b7;
+
         button {
             background-color: #002d40;
             color: #faf4ff;
         }
+
         button:hover {
             background-color: #10375c;
             color: #f3c623;
