@@ -47,6 +47,8 @@ body .body-1 .body-2 {
 }
 
 body .body-1 .body-2 span {
+  text-align: center;
+  padding: 0 5px;
   margin-top: 4px;
   color: #f3c623;
   font-size: 14px;
